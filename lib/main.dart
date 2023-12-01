@@ -13,8 +13,9 @@ class todo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: ThemeData(primaryColor: Colors.yellow),
+      theme: ThemeData(primarySwatch: Colors.yellow),
     );
   }
 }
